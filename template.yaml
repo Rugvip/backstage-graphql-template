@@ -8,4 +8,3 @@ metadata:
     the best pracices with GraphQL
 spec:
   type: cookiecutter
-  path: .
