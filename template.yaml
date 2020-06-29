@@ -7,4 +7,6 @@ metadata:
     A GraphQL starter template for backstage to get you up and running
     the best pracices with GraphQL
 spec:
-  type: cookiecutter
+  type: service
+  processor: cookiecutter
+  path: '.template'
