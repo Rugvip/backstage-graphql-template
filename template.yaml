@@ -3,6 +3,10 @@ kind: Template
 metadata:
   name: graphql-starter
   title: GraphQL Service
+  tags:
+    - Experimental
+    - GraphQL
+    - React
   description: |
     A GraphQL starter template for backstage to get you up and running
     the best pracices with GraphQL
