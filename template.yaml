@@ -12,5 +12,6 @@ metadata:
     the best pracices with GraphQL
 spec:
   type: service
+  test: key
   processor: cookiecutter
   path: './template'
