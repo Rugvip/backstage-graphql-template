@@ -1,17 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
-  name: react-ussr-template
-  title: React USSR Template
-  description: Create a website powered with Next.js
-  tags:
-    - recommended
-    - react
+  name: graphql-starter
+  title: GraphQL Service
+  description: |
+    A GraphQL starter template for backstage to get you up and running
+    the best pracices with GraphQL
 spec:
-  owner: web@example.com
-  templater: cookiecutter
-  type: website
-  path: '.'
+  processor: cookiecutter
+  type: service
+  path: ./template
   schema:
     required:
       - component_id
@@ -24,4 +22,4 @@ spec:
       description:
         title: Description
         type: string
-        description: Help others understand what this website is for.
+        description: Description of the component
